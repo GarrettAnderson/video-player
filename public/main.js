@@ -1,7 +1,7 @@
-const main = () => {
-  if (document.querySelector('h1.hello-world')) {
-    document.querySelector('h1.hello-world').textContent = 'Hello, World!'
-  }
-}
+// Get our Elements
+const player = document.querySelector('.player')
+const video = player.querySelector('.viewer')
 
-document.addEventListener('DOMContentLoaded', main)
+// Build our functions
+
+// Hook up the event listeners
